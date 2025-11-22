@@ -65,14 +65,12 @@ pip install jupyterlab
 To export your installed packages into a requirements.txt file:
 
 ```bash
-# Copy code
 pip freeze > requirements.txt
 ```
 
 Later, anyone can recreate the same environment with:
 
 ```bash
-# Copy code
 pip install -r requirements.txt
 ```
 
